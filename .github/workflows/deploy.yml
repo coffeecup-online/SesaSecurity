@@ -1,0 +1,46 @@
+name: Deploy sesa-security.nl (Static)
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-sesa-security.nl
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Upload source to CHARIZARD
+        uses: appleboy/scp-action@v1.0.0
+        with:
+          host: ${{ secrets.CHARIZARD_SERVER_IP }}
+          username: ${{ secrets.CHARIZARD_SERVER_USER }}
+          key: ${{ secrets.CHARIZARD_SSH_PRIVATE_KEY }}
+          port: 22
+          source: "./*"
+          target: "/var/www/sesa-security.nl"
+
+      - name: Install dependencies and build static export
+        uses: appleboy/ssh-action@v1.2.5
+        with:
+          host: ${{ secrets.CHARIZARD_SERVER_IP }}
+          username: ${{ secrets.CHARIZARD_SERVER_USER }}
+          key: ${{ secrets.CHARIZARD_SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            set -e
+            cd "/var/www/sesa-security.nl"
+            if [ -f package-lock.json ]; then
+              npm ci
+            else
+              rm -rf node_modules
+              npm install
+            fi
+            npm run build
+            test -f out/index.html

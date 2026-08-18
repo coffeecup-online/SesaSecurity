@@ -115,7 +115,7 @@ export default function Home() {
           <p className="section-kicker">About Sarah</p>
           <h2>*Experience with a human perspective.*</h2>
           <p className="about-lead">
-            *I am Sarah Estrecy, founder of Sesa Security and a security
+            *I am Sarah Istrefi, founder of Sesa Security and a security
             professional committed to making complex challenges understandable
             and manageable.*
           </p>
