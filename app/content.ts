@@ -134,7 +134,7 @@ export const siteContent = {
       another: "Nog een bericht sturen →",
       error:
         "Het bericht kon niet worden verzonden. Probeer het later opnieuw.",
-      subject: "Nieuwe aanvraag via de website van Sesa Security",
+      subject: "Nieuwe inzending contactformulier via de website van Sesa Security",
     },
   },
   en: {
