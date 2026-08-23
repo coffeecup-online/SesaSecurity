@@ -739,8 +739,8 @@ textarea::placeholder {
   padding: 65px clamp(24px, 7vw, 108px) 36px;
   border-top: 1px solid var(--line-dark);
   background: #080808;
-  grid-template-columns: minmax(260px, 1fr) auto auto;
-  gap: 50px;
+  grid-template-columns: minmax(240px, 1fr) auto auto auto;
+  gap: clamp(28px, 3.5vw, 50px);
 }
 
 .footer-intro > p {
@@ -762,9 +762,14 @@ textarea::placeholder {
 }
 
 .footer-nav-column,
-.footer-contact {
+.footer-contact,
+.footer-social-column {
   min-width: 180px;
   align-self: start;
+}
+
+.footer-social-column {
+  min-width: 120px;
 }
 
 .footer-column-title {
@@ -806,6 +811,36 @@ textarea::placeholder {
 .footer-contact a:hover,
 .footer-contact a:focus-visible {
   color: var(--gold-light);
+}
+
+.footer-social-link {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 9px;
+  color: #c5c1b8;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus-visible {
+  color: var(--gold-light);
+}
+
+.linkedin-icon {
+  display: grid;
+  width: 21px;
+  height: 21px;
+  place-items: center;
+  border: 1px solid currentColor;
+  color: var(--gold-light);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  text-transform: none;
 }
 
 .copyright {

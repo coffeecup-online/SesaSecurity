@@ -38,13 +38,30 @@ export function SiteFooter({ locale }: { locale: Locale }) {
         </div>
         <div>
           <span>{copy.phone}</span>
-          <a href="tel:+31644499495">06 44 49 94 95</a>
+          <a href="tel:+31626535692">06 26 53 56 92</a>
         </div>
         <div>
           <span>{copy.kvk}</span>
           <p>40094373</p>
         </div>
       </address>
+      <div className="footer-social-column">
+        <h2 className="footer-column-title">Social</h2>
+        <a
+          className="footer-social-link"
+          href="https://www.linkedin.com/in/sara-istrefi-a1b551213/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label={
+            locale === "nl"
+              ? "LinkedIn-profiel van Sara Istrefi"
+              : "Sara Istrefi's LinkedIn profile"
+          }
+        >
+          <span className="linkedin-icon" aria-hidden="true">in</span>
+          LinkedIn
+        </a>
+      </div>
       <p className="copyright">© {new Date().getFullYear()} Sesa Security</p>
     </footer>
   );
