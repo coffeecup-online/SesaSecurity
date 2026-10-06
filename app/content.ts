@@ -19,6 +19,7 @@ export const siteContent = {
       email: "E-mail",
       phone: "Telefoon",
       kvk: "KVK",
+      vat: "Btw-id",
       address: "Vestigingsadres",
       navigationTitle: "Navigatie",
       contactTitle: "Contactgegevens",
@@ -57,6 +58,18 @@ export const siteContent = {
           description:
             "Scherpe observatie, risico-inschatting, conflicthantering en zorgvuldige incidentpreventie en rapportage.",
         },
+        {
+          number: "04",
+          title: "Surveillance",
+          description:
+            "Alert toezicht en het signaleren van veiligheidsrisico’s op locatie.",
+        },
+        {
+          number: "05",
+          title: "Evenementenbeveiliging",
+          description:
+            "Toegangscontrole, toezicht en zorgvuldig handelen bij incidenten tijdens evenementen.",
+        },
       ],
       aboutKicker: "Over Sesa-Security",
       aboutTitle: "Veiligheid begint met aandacht.",
@@ -67,8 +80,7 @@ export const siteContent = {
       aboutCta: "Bespreek een opdracht",
       facts: [
         "KVK 42094373",
-        "Rijbewijs B",
-        "Nederlands · Albanees · Engels",
+        "Wpbr-vergunning",
       ],
       experienceKicker: "Ervaring & opleiding",
       experienceTitle: "Ervaring waarop u kunt vertrouwen.",
@@ -77,9 +89,9 @@ export const siteContent = {
       experience: [
         {
           year: "2023–2024",
-          role: "Beveiliger luchtvaartbeveiliging",
+          role: "Agent luchtvaartbeveiliging",
           company:
-            "i-SEC · Schiphol (tot augustus 2024) — toegangscontrole, security checks, incidentpreventie en rapportage",
+            "i-SEC · Schiphol (juli 2023 – augustus 2024) — beveiligings- en toegangscontroles, risicosignalering, incidentafhandeling en rapportage",
         },
         {
           year: "HBO",
@@ -117,8 +129,9 @@ export const siteContent = {
         { label: "Vestigingsadres", value: "Krugerstraat 88, 3531 AS Utrecht" },
         { label: "Werkgebied", value: "Heel Nederland" },
         { label: "KVK", value: "42094373" },
+        { label: "Btw-id", value: "NL005492188B29" },
       ],
-      note: "Opdrachten vanaf 4 uur. Geen horeca- of winkelbeveiliging.",
+      note: "Opdrachten vanaf 4 uur. Dag-, avond-, nacht- en weekenddiensten; start op korte termijn in overleg. Horeca- en winkelbeveiliging hebben niet de voorkeur.",
       fields: {
         name: "Naam",
         namePlaceholder: "Uw naam",
@@ -158,6 +171,7 @@ export const siteContent = {
       email: "Email",
       phone: "Phone",
       kvk: "Chamber of Commerce",
+      vat: "VAT ID",
       address: "Registered address",
       navigationTitle: "Navigation",
       contactTitle: "Contact details",
@@ -196,6 +210,18 @@ export const siteContent = {
           description:
             "Vigilant observation, risk assessment, conflict management, and careful incident prevention and reporting.",
         },
+        {
+          number: "04",
+          title: "Security patrols",
+          description:
+            "Attentive supervision and identification of security risks on site.",
+        },
+        {
+          number: "05",
+          title: "Event security",
+          description:
+            "Access control, supervision and careful incident handling at events.",
+        },
       ],
       aboutKicker: "About Sesa-Security",
       aboutTitle: "Security starts with attention.",
@@ -206,8 +232,7 @@ export const siteContent = {
       aboutCta: "Discuss an assignment",
       facts: [
         "Chamber of Commerce 42094373",
-        "Driving licence B",
-        "Dutch · Albanian · English",
+        "Wpbr licence",
       ],
       experienceKicker: "Experience & education",
       experienceTitle: "Experience you can rely on.",
@@ -216,9 +241,9 @@ export const siteContent = {
       experience: [
         {
           year: "2023–2024",
-          role: "Aviation security officer",
+          role: "Aviation security agent",
           company:
-            "i-SEC · Schiphol (until August 2024) — access control, security checks, incident prevention, and reporting",
+            "i-SEC · Schiphol (July 2023 – August 2024) — security and access checks, risk identification, incident handling and reporting",
         },
         {
           year: "BACHELOR",
@@ -256,8 +281,9 @@ export const siteContent = {
         { label: "Registered address", value: "Krugerstraat 88, 3531 AS Utrecht" },
         { label: "Service area", value: "The Netherlands" },
         { label: "Chamber of Commerce", value: "42094373" },
+        { label: "VAT ID", value: "NL005492188B29" },
       ],
-      note: "Assignments from 4 hours. No hospitality venue or retail security.",
+      note: "Assignments from 4 hours. Available for day, evening, night and weekend shifts; short-notice starts by agreement. Hospitality venue and retail security are not preferred.",
       fields: {
         name: "Name",
         namePlaceholder: "Your name",

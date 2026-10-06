@@ -2,32 +2,37 @@
 
 ## Bevestigd
 
-- Naam: Sara Istrefi. Foto en LinkedIn-profiel mogen op de website.
+- Naam: Sara Istrefi. LinkedIn-profiel mag op de website. Tot er een foto van
+  Sara in uniform is, staat het logo op de fotoplaats in het onderdeel Over.
 - Handelsnaam: Sesa-security. KVK: 42094373. Eenmanszaak, hoofdvestiging aan
   Krugerstraat 88, 3531 AS Utrecht. Het adres is niet afgeschermd.
-- E-mailadres: info@sesa-security.nl.
-- Telefoonnummer: 06 26 53 56 92. Domeinnaam: sesa-security.nl.
-- Werk bij i-SEC: van 2023 tot augustus 2024, ongeveer een jaar. De officiële
-  functietitel is nog niet bevestigd.
+- E-mailadres: info@sesa-security.nl. Telefoonnummer: 06 26 53 56 92.
+  Domeinnaam: sesa-security.nl. Btw-id: NL005492188B29.
+- Bij i-SEC op Schiphol gewerkt van juli 2023 tot augustus 2024 als Agent.
+  Werkzaamheden: beveiligings- en toegangscontroles, veiligheidsrisico's
+  signaleren, incidentafhandeling en rapportage.
+- Sesa-Security beschikt volgens Sara over een Wpbr-vergunning van Justis.
+  Het vergunningnummer is nog niet aangeleverd. Haar aanvraag voor de
+  beveiligingslegitimatie is bij de politie ingediend en nog in behandeling;
+  deze niet als verleend presenteren.
 - Geen extra BHV-, EHBO- of VCA-certificaten opgegeven.
-- Grijze pas moet nog worden aangevraagd; niet als bestaande vergunning of
-  legitimatie op de website vermelden.
-- Geen horeca- of winkelbeveiliging. Minimale opdrachtduur: 4 uur.
+- Interesse in objectbeveiliging, toegangscontrole, surveillance en
+  evenementenbeveiliging. Horeca- en winkelbeveiliging hebben niet de voorkeur.
+- Dag-, avond-, nacht- en weekenddiensten mogelijk. Start op korte termijn in
+  overleg. Minimale opdrachtduur: 4 uur.
+- Klantreferenties alleen met toestemming van de betreffende klant.
+- Rijbewijs en gesproken talen worden niet op de website vermeld.
+- Sara heeft een eigen klachtenregeling opgesteld en kan die toesturen.
+  Sesa-Security is niet aangesloten bij een onafhankelijke klachtencommissie.
 
-## Nog te controleren
+## Nog nodig
 
-1. Heeft Sara eerder een eigen klachtenregeling vastgesteld of bij Justis of een
-   vergunningaanvraag ingediend? Zo ja: vergelijk die met de website.
-2. Is er een onafhankelijke klachtencommissie waarbij Sesa-Security is
-   aangesloten? Er staat nu geen commissie op de website.
-3. Wat is het btw-id dat op de website moet worden vermeld?
-4. Wat was de officiële functietitel bij i-SEC? Welke maand in 2023 was de start?
-5. Welke andere relevante vergunningen, registraties of legitimaties bestaan al
-   en mogen openbaar worden genoemd?
-6. Welke andere soorten opdrachten hebben de voorkeur? Welke dagen en tijden
-   zijn mogelijk, inclusief nachtdiensten, en wanneer kan een opdracht starten?
-7. Zijn er referenties die met toestemming van de opdrachtgever mogen worden
-   gebruikt?
+1. Ontvang Sara's eigen klachtenregeling en vergelijk deze met de website.
+2. Ontvang eventueel het Wpbr-vergunningnummer als het openbaar mag worden
+   vermeld. Controleer later de status van de beveiligingslegitimatie.
+3. Ontvang een foto van Sara in uniform om het tijdelijke logo te vervangen.
+4. Vraag toestemming van de betreffende klant voordat een concrete referentie
+   wordt toegevoegd.
 
 ## Zelf uitzoeken voor de website
 

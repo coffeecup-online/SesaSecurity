@@ -46,6 +46,10 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           <p>42094373</p>
         </div>
         <div>
+          <span>{copy.vat}</span>
+          <p>NL005492188B29</p>
+        </div>
+        <div>
           <span>{copy.address}</span>
           <p>Krugerstraat 88<br />3531 AS Utrecht</p>
         </div>

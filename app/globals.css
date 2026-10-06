@@ -422,6 +422,14 @@ nav .nav-contact {
   object-position: center;
 }
 
+.about-portrait-logo {
+  background: var(--ink);
+}
+
+.about-portrait-logo img {
+  object-fit: contain;
+}
+
 .about-copy {
   align-self: center;
 }

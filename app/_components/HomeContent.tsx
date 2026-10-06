@@ -67,12 +67,12 @@ export function HomeContent({ locale }: { locale: Locale }) {
       </section>
 
       <section className="about section-pad" id="about">
-        <figure className="about-portrait">
+        <figure className="about-portrait about-portrait-logo">
           <Image
-            src="/sarah-istrefi.webp"
-            alt="Sara Istrefi"
-            width={1080}
-            height={1632}
+            src="/sesa-security-emblem-1024.png"
+            alt="Logo van Sesa-Security"
+            width={1024}
+            height={1024}
             sizes="(max-width: 900px) 100vw, 42vw"
           />
         </figure>
