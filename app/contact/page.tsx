@@ -6,9 +6,9 @@ import { createPageMetadata } from "../seo";
 export const metadata = createPageMetadata({
   locale: "nl",
   title: "Contact",
-  socialTitle: "Contact opnemen met Sesa Security",
+  socialTitle: "Contact opnemen met Sesa-Security",
   description:
-    "Neem contact op met Sesa Security voor professionele ZZP-beveiliging in heel Nederland.",
+    "Neem contact op met Sesa-Security voor professionele beveiliging in heel Nederland.",
   path: "/contact/",
   nlPath: "/contact/",
   enPath: "/en/contact/",

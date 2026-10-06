@@ -127,6 +127,7 @@ export function HomeContent({ locale }: { locale: Locale }) {
       <section className="cta section-pad">
         <p className="section-kicker">{copy.ctaKicker}</p>
         <h2>{copy.ctaTitle}</h2>
+        <p className="cta-text">{copy.ctaText}</p>
         <Link className="button button-dark" href={contact}>
           {copy.ctaButton} <span aria-hidden="true">↗</span>
         </Link>

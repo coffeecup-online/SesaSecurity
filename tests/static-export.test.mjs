@@ -34,13 +34,14 @@ test("exports the Sesa branding and social metadata", async () => {
     "../out/contact/index.html",
     "../out/en/index.html",
     "../out/en/contact/index.html",
+    "../out/klachtenregeling/index.html",
   ];
 
   for (const page of pages) {
     const html = await readFile(new URL(page, import.meta.url), "utf8");
 
     assert.match(html, /https:\/\/sesa-security\.nl\/og\.png/);
-    assert.match(html, /property="og:site_name" content="Sesa Security"/);
+    assert.match(html, /property="og:site_name" content="Sesa-Security"/);
     assert.match(html, /rel="icon" href="\/icon\.png"/);
     assert.match(html, /rel="apple-touch-icon" href="\/apple-icon\.png"/);
   }
@@ -48,4 +49,17 @@ test("exports the Sesa branding and social metadata", async () => {
   await stat(new URL("../out/og.png", import.meta.url));
   await stat(new URL("../out/sesa-security-emblem-512.png", import.meta.url));
   await stat(new URL("../out/sesa-security-emblem-1024.png", import.meta.url));
+});
+
+
+test("exports the complaints procedure and footer links", async () => {
+  const complaints = await readFile(new URL("../out/klachtenregeling/index.html", import.meta.url), "utf8");
+  assert.match(complaints, /Artikel 11/);
+  assert.doesNotMatch(complaints, /onafhankelijke klachtencommissie/);
+  assert.match(complaints, /Dienst Justis/);
+  assert.doesNotMatch(complaints, /\[naam organisatie\]/);
+  for (const page of ["../out/index.html", "../out/contact/index.html", "../out/en/index.html", "../out/en/contact/index.html"]) {
+    const html = await readFile(new URL(page, import.meta.url), "utf8");
+    assert.match(html, /href="\/klachtenregeling\/"/);
+  }
 });

@@ -5,17 +5,17 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: {
-    default: "Sesa Security — Professionele beveiliging",
-    template: "%s | Sesa Security",
+    default: "Sesa-Security — Professionele beveiliging",
+    template: "%s | Sesa-Security",
   },
   description:
-    "Professionele ZZP-beveiliging, luchtvaartbeveiliging en veiligheidsexpertise door Sara Istrefi.",
-  applicationName: "Sesa Security",
-  creator: "Sesa Security",
-  publisher: "Sesa Security",
+    "Professionele beveiliging, luchtvaartbeveiliging en veiligheidsexpertise door Sesa-Security.",
+  applicationName: "Sesa-Security",
+  creator: "Sesa-Security",
+  publisher: "Sesa-Security",
   keywords: [
-    "Sesa Security",
-    "ZZP beveiliger",
+    "Sesa-Security",
+    "beveiligingsbedrijf",
     "objectbeveiliging",
     "luchtvaartbeveiliging",
     "veiligheidsspecialist",
@@ -26,10 +26,10 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    siteName: "Sesa Security",
-    title: "Sesa Security — Professionele beveiliging",
+    siteName: "Sesa-Security",
+    title: "Sesa-Security — Professionele beveiliging",
     description:
-      "Professionele beveiliging en veiligheidsexpertise door Sara Istrefi.",
+      "Professionele beveiliging en veiligheidsexpertise door Sesa-Security.",
     url: "/",
     locale: "nl_NL",
     alternateLocale: ["en_GB"],
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Sesa Security — Professionele beveiliging",
+    title: "Sesa-Security — Professionele beveiliging",
     description:
-      "Professionele beveiliging en veiligheidsexpertise door Sara Istrefi.",
+      "Professionele beveiliging en veiligheidsexpertise door Sesa-Security.",
     images: [{ url: socialImage.url, alt: socialImage.alt }],
   },
 };

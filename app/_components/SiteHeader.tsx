@@ -4,15 +4,15 @@ import { Locale, siteContent } from "../content";
 
 type Props = {
   locale: Locale;
-  page: "home" | "contact";
+  page: "home" | "contact" | "complaints";
 };
 
 export function SiteHeader({ locale, page }: Props) {
   const copy = siteContent[locale].nav;
   const home = locale === "nl" ? "/" : "/en/";
   const contact = locale === "nl" ? "/contact/" : "/en/contact/";
-  const nlPath = page === "home" ? "/" : "/contact/";
-  const enPath = page === "home" ? "/en/" : "/en/contact/";
+  const nlPath = page === "home" ? "/" : page === "contact" ? "/contact/" : "/klachtenregeling/";
+  const enPath = page === "home" ? "/en/" : page === "contact" ? "/en/contact/" : "/klachtenregeling/";
 
   return (
     <header className="site-header">
@@ -25,7 +25,7 @@ export function SiteHeader({ locale, page }: Props) {
           height={768}
           priority
         />
-        <span className="brand-name">SESA SECURITY</span>
+        <span className="brand-name">SESA-SECURITY</span>
       </Link>
       <nav aria-label={copy.label}>
         <Link className="nav-link" href={`${home}#services`}>
@@ -45,7 +45,7 @@ export function SiteHeader({ locale, page }: Props) {
             NL
           </Link>
           <span aria-hidden="true">/</span>
-          <Link href={enPath} lang="en" aria-current={locale === "en" ? "page" : undefined}>
+          <Link href={enPath} lang="en" aria-current={locale === "en" && page !== "complaints" ? "page" : undefined}>
             EN
           </Link>
         </div>

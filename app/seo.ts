@@ -6,7 +6,7 @@ export const socialImage = {
   url: "/og.png",
   width: 1024,
   height: 1024,
-  alt: "Het gouden schildlogo van Sesa Security",
+  alt: "Het gouden schildlogo van Sesa-Security",
 };
 
 type PageMetadataOptions = {
@@ -41,7 +41,7 @@ export function createPageMetadata({
     },
     openGraph: {
       type: "website",
-      siteName: "Sesa Security",
+      siteName: "Sesa-Security",
       title: socialTitle,
       description,
       url: path,

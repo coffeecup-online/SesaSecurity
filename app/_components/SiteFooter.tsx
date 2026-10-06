@@ -18,7 +18,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             width={512}
             height={768}
           />
-          <span className="brand-name">SESA SECURITY</span>
+          <span className="brand-name">SESA-SECURITY</span>
         </Link>
         <p>{copy.text}</p>
       </div>
@@ -28,6 +28,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           <Link href={home}>{copy.home}</Link>
           <Link href={`${home}#services`}>{copy.services}</Link>
           <Link href={contact}>{copy.contact}</Link>
+          <Link href="/klachtenregeling/" lang={locale === "en" ? "nl" : undefined}>{copy.complaints}</Link>
         </div>
       </div>
       <address className="footer-contact">
@@ -42,7 +43,11 @@ export function SiteFooter({ locale }: { locale: Locale }) {
         </div>
         <div>
           <span>{copy.kvk}</span>
-          <p>40094373</p>
+          <p>42094373</p>
+        </div>
+        <div>
+          <span>{copy.address}</span>
+          <p>Krugerstraat 88<br />3531 AS Utrecht</p>
         </div>
       </address>
       <div className="footer-social-column">
@@ -62,7 +67,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           LinkedIn
         </a>
       </div>
-      <p className="copyright">© {new Date().getFullYear()} Sesa Security</p>
+      <p className="copyright">© {new Date().getFullYear()} Sesa-Security</p>
     </footer>
   );
 }

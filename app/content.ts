@@ -4,29 +4,31 @@ export const siteContent = {
   nl: {
     nav: {
       services: "Diensten",
-      about: "Over Sara",
+      about: "Over Sesa-Security",
       experience: "Ervaring",
       contact: "Contact",
       label: "Hoofdnavigatie",
-      homeLabel: "Sesa Security homepage",
+      homeLabel: "Sesa-Security homepage",
     },
     footer: {
       text: "Professionele beveiliging en veiligheidsexpertise voor organisaties in heel Nederland.",
       home: "Home",
       services: "Diensten",
       contact: "Contact",
+      complaints: "Klachtenregeling",
       email: "E-mail",
       phone: "Telefoon",
       kvk: "KVK",
+      address: "Vestigingsadres",
       navigationTitle: "Navigatie",
       contactTitle: "Contactgegevens",
     },
     home: {
-      eyebrow: "Zelfstandig veiligheidsspecialist",
+      eyebrow: "Professionele beveiliging",
       titleStart: "Veiligheid door",
       titleAccent: "vakmanschap.",
       intro:
-        "Sesa Security ondersteunt organisaties met professionele beveiliging, scherp toezicht en betrouwbare veiligheidshandhaving — op locatie en door heel Nederland.",
+        "Sesa-Security ondersteunt organisaties met professionele beveiliging, scherp toezicht en betrouwbare veiligheidshandhaving — op locatie en door heel Nederland.",
       primaryCta: "Bespreek een opdracht",
       scroll: "Ontdek meer",
       statementKicker: "Waar Sesa voor staat",
@@ -35,7 +37,7 @@ export const siteContent = {
       servicesKicker: "Diensten",
       servicesTitle: "Professionele inzet. Heldere afspraken.",
       servicesNote:
-        "Flexibel inzetbaar als ZZP-beveiliger voor opdrachten in heel Nederland.",
+        "Sesa-Security is flexibel inzetbaar voor professionele beveiligingsopdrachten in Utrecht en andere delen van Nederland.",
       services: [
         {
           number: "01",
@@ -56,15 +58,15 @@ export const siteContent = {
             "Scherpe observatie, risico-inschatting, conflicthantering en zorgvuldige incidentpreventie en rapportage.",
         },
       ],
-      aboutKicker: "Over Sara",
+      aboutKicker: "Over Sesa-Security",
       aboutTitle: "Veiligheid begint met aandacht.",
       aboutLead:
-        "Ik ben Sara Istrefi, zelfstandig beveiliger en veiligheidsspecialist uit Utrecht. Ik werk alert, professioneel en met oog voor de mensen en omgeving die ik beveilig.",
+        "Sesa-Security staat voor professionele, betrouwbare en alerte beveiliging. De onderneming is opgericht vanuit praktijkervaring in de beveiligingsbranche, waaronder luchthavenbeveiliging.",
       aboutBody:
-        "Mijn praktijkervaring in de luchtvaartbeveiliging bij i-SEC op Schiphol combineer ik met een HBO-bachelor Expert Openbare Orde en Veiligheid en het diploma Beveiliger 2. Ook onder druk blijf ik zorgvuldig observeren, helder communiceren en handelen volgens de geldende procedures.",
-      aboutCta: "Werk met Sara",
+        "Die praktijkervaring wordt gecombineerd met kennis van openbare orde en veiligheid, risicosignalering, toezicht, toegangscontrole, incidentafhandeling en rapportage. Sesa-Security werkt zorgvuldig en met aandacht voor veiligheid én gastvrijheid.",
+      aboutCta: "Bespreek een opdracht",
       facts: [
-        "KVK 40094373",
+        "KVK 42094373",
         "Rijbewijs B",
         "Nederlands · Albanees · Engels",
       ],
@@ -74,10 +76,10 @@ export const siteContent = {
         "Een praktische beveiligingsachtergrond, aangevuld met brede kennis van openbare orde en veiligheid.",
       experience: [
         {
-          year: "1 JAAR",
+          year: "2023–2024",
           role: "Beveiliger luchtvaartbeveiliging",
           company:
-            "i-SEC · Schiphol — toegangscontrole, security checks, incidentpreventie en rapportage",
+            "i-SEC · Schiphol (tot augustus 2024) — toegangscontrole, security checks, incidentpreventie en rapportage",
         },
         {
           year: "HBO",
@@ -101,21 +103,22 @@ export const siteContent = {
         "Rapportage",
       ],
       ctaKicker: "Beschikbaar in heel Nederland",
-      ctaTitle: "Een professionele ZZP-beveiliger nodig?",
+      ctaTitle: "Professionele beveiliging nodig?",
+      ctaText: "Heeft uw organisatie behoefte aan professionele beveiliging of wilt u de mogelijkheden voor een opdracht bespreken? Neem vrijblijvend contact op met Sesa-Security.",
       ctaButton: "Neem contact op",
     },
     contact: {
       kicker: "Contact",
       title: "Laten we veiligheid praktisch maken.",
       intro:
-        "Vertel waar u beveiligingsondersteuning nodig heeft. Sara neemt zo snel mogelijk contact met u op om de opdracht te bespreken.",
+        "Heeft uw organisatie behoefte aan professionele beveiliging of wilt u de mogelijkheden voor een opdracht bespreken? Neem vrijblijvend contact op met Sesa-Security.",
       detailsKicker: "Praktische informatie",
       details: [
-        { label: "Vestigingsplaats", value: "Utrecht" },
+        { label: "Vestigingsadres", value: "Krugerstraat 88, 3531 AS Utrecht" },
         { label: "Werkgebied", value: "Heel Nederland" },
-        { label: "KVK", value: "40094373" },
+        { label: "KVK", value: "42094373" },
       ],
-      note: "Beschikbaar voor ZZP-opdrachten in de beveiliging.",
+      note: "Opdrachten vanaf 4 uur. Geen horeca- of winkelbeveiliging.",
       fields: {
         name: "Naam",
         namePlaceholder: "Uw naam",
@@ -124,45 +127,47 @@ export const siteContent = {
         organisation: "Organisatie",
         organisationPlaceholder: "Bedrijf of organisatie",
         message: "Bericht",
-        messagePlaceholder: "Waar kan Sesa Security bij ondersteunen?",
+        messagePlaceholder: "Waar kan Sesa-Security bij ondersteunen?",
       },
       send: "Verstuur bericht",
       sending: "Versturen…",
       successTitle: "Bedankt voor uw bericht.",
       successText:
-        "Uw bericht is verzonden. Sara neemt zo snel mogelijk contact met u op.",
+        "Uw bericht is verzonden. Sesa-Security neemt zo snel mogelijk contact met u op.",
       another: "Nog een bericht sturen →",
       error:
         "Het bericht kon niet worden verzonden. Probeer het later opnieuw.",
-      subject: "Nieuwe inzending contactformulier via de website van Sesa Security",
+      subject: "Nieuwe inzending contactformulier via de website van Sesa-Security",
     },
   },
   en: {
     nav: {
       services: "Services",
-      about: "About Sara",
+      about: "About Sesa-Security",
       experience: "Experience",
       contact: "Contact",
       label: "Main navigation",
-      homeLabel: "Sesa Security home",
+      homeLabel: "Sesa-Security home",
     },
     footer: {
       text: "Professional security services and safety expertise for organisations throughout the Netherlands.",
       home: "Home",
       services: "Services",
       contact: "Contact",
+      complaints: "Complaints procedure",
       email: "Email",
       phone: "Phone",
       kvk: "Chamber of Commerce",
+      address: "Registered address",
       navigationTitle: "Navigation",
       contactTitle: "Contact details",
     },
     home: {
-      eyebrow: "Independent security specialist",
+      eyebrow: "Professional security services",
       titleStart: "Security through",
       titleAccent: "professionalism.",
       intro:
-        "Sesa Security supports organisations with professional guarding, vigilant supervision, and reliable safety enforcement — on location throughout the Netherlands.",
+        "Sesa-Security supports organisations with professional guarding, vigilant supervision, and reliable safety enforcement — on location throughout the Netherlands.",
       primaryCta: "Discuss an assignment",
       scroll: "Discover more",
       statementKicker: "What Sesa stands for",
@@ -171,7 +176,7 @@ export const siteContent = {
       servicesKicker: "Services",
       servicesTitle: "Professional support. Clear agreements.",
       servicesNote:
-        "Flexibly available as an independent security professional throughout the Netherlands.",
+        "Sesa-Security is available for professional security assignments in Utrecht and across the Netherlands.",
       services: [
         {
           number: "01",
@@ -192,15 +197,15 @@ export const siteContent = {
             "Vigilant observation, risk assessment, conflict management, and careful incident prevention and reporting.",
         },
       ],
-      aboutKicker: "About Sara",
+      aboutKicker: "About Sesa-Security",
       aboutTitle: "Security starts with attention.",
       aboutLead:
-        "I am Sara Istrefi, an independent security professional and safety specialist based in Utrecht. I work attentively and professionally, with consideration for the people and environments I protect.",
+        "Sesa-Security provides professional, reliable and attentive security. The business was founded on practical experience in the security industry, including aviation security.",
       aboutBody:
-        "I combine practical aviation security experience with i-SEC at Schiphol with a bachelor’s degree in Public Order and Safety and the Dutch Security Officer Level 2 qualification. Even under pressure, I continue to observe carefully, communicate clearly, and follow established procedures.",
-      aboutCta: "Work with Sara",
+        "This experience is complemented by knowledge of public order and safety, risk assessment, supervision, access control, incident handling and reporting. Sesa-Security works carefully, with attention to both safety and hospitality.",
+      aboutCta: "Discuss an assignment",
       facts: [
-        "Chamber of Commerce 40094373",
+        "Chamber of Commerce 42094373",
         "Driving licence B",
         "Dutch · Albanian · English",
       ],
@@ -210,10 +215,10 @@ export const siteContent = {
         "A practical security background supported by broad expertise in public order and safety.",
       experience: [
         {
-          year: "1 YEAR",
+          year: "2023–2024",
           role: "Aviation security officer",
           company:
-            "i-SEC · Schiphol — access control, security checks, incident prevention, and reporting",
+            "i-SEC · Schiphol (until August 2024) — access control, security checks, incident prevention, and reporting",
         },
         {
           year: "BACHELOR",
@@ -237,21 +242,22 @@ export const siteContent = {
         "Reporting",
       ],
       ctaKicker: "Available throughout the Netherlands",
-      ctaTitle: "Need an experienced independent security professional?",
+      ctaTitle: "Need professional security?",
+      ctaText: "Does your organisation need professional security, or would you like to discuss an assignment? Contact Sesa-Security without obligation.",
       ctaButton: "Get in touch",
     },
     contact: {
       kicker: "Contact",
       title: "Let’s make security practical.",
       intro:
-        "Tell us where you need security support. Sara will contact you as soon as possible to discuss the assignment.",
+        "Does your organisation need professional security, or would you like to discuss an assignment? Contact Sesa-Security without obligation.",
       detailsKicker: "Practical information",
       details: [
-        { label: "Based in", value: "Utrecht" },
+        { label: "Registered address", value: "Krugerstraat 88, 3531 AS Utrecht" },
         { label: "Service area", value: "The Netherlands" },
-        { label: "Chamber of Commerce", value: "40094373" },
+        { label: "Chamber of Commerce", value: "42094373" },
       ],
-      note: "Available for independent security assignments.",
+      note: "Assignments from 4 hours. No hospitality venue or retail security.",
       fields: {
         name: "Name",
         namePlaceholder: "Your name",
@@ -260,16 +266,16 @@ export const siteContent = {
         organisation: "Organisation",
         organisationPlaceholder: "Company or organisation",
         message: "Message",
-        messagePlaceholder: "How can Sesa Security support you?",
+        messagePlaceholder: "How can Sesa-Security support you?",
       },
       send: "Send message",
       sending: "Sending…",
       successTitle: "Thank you for your message.",
       successText:
-        "Your message has been sent. Sara will contact you as soon as possible.",
+        "Your message has been sent. Sesa-Security will contact you as soon as possible.",
       another: "Send another message →",
       error: "The message could not be sent. Please try again later.",
-      subject: "New enquiry via the Sesa Security website",
+      subject: "New enquiry via the Sesa-Security website",
     },
   },
 } as const;

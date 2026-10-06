@@ -72,7 +72,7 @@ export function ContactContent({ locale }: { locale: Locale }) {
             <form action={WEB3FORMS_ENDPOINT} method="POST" onSubmit={handleSubmit}>
               <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
               <input type="hidden" name="subject" value={copy.subject} />
-              <input type="hidden" name="from_name" value="Sesa Security" />
+              <input type="hidden" name="from_name" value="Sesa-Security" />
               <input
                 className="botcheck"
                 type="checkbox"
