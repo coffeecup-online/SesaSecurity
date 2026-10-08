@@ -54,9 +54,14 @@ test("exports the Sesa branding and social metadata", async () => {
 
 test("exports the complaints procedure and footer links", async () => {
   const complaints = await readFile(new URL("../out/klachtenregeling/index.html", import.meta.url), "utf8");
-  assert.match(complaints, /Artikel 11/);
-  assert.doesNotMatch(complaints, /onafhankelijke klachtencommissie/);
-  assert.match(complaints, /Dienst Justis/);
+  assert.match(complaints, /Indienen van een klacht/);
+  assert.match(complaints, /Termijn voor het indienen van een klacht/);
+  assert.match(complaints, /geen wettelijke maximumtermijn/);
+  assert.match(complaints, /Vereisten voor het indienen van een klacht/);
+  assert.match(complaints, /Naam en contactgegevens van de klager/);
+  assert.match(complaints, /Onafhankelijke klachtencommissie/);
+  assert.match(complaints, /niet aangesloten bij een onafhankelijke klachtencommissie/);
+  assert.doesNotMatch(complaints, /Artikel 11/);
   assert.doesNotMatch(complaints, /\[naam organisatie\]/);
   for (const page of ["../out/index.html", "../out/contact/index.html", "../out/en/index.html", "../out/en/contact/index.html"]) {
     const html = await readFile(new URL(page, import.meta.url), "utf8");

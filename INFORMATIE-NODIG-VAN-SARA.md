@@ -22,16 +22,27 @@
   overleg. Minimale opdrachtduur: 4 uur.
 - Klantreferenties alleen met toestemming van de betreffende klant.
 - Rijbewijs en gesproken talen worden niet op de website vermeld.
-- Sara heeft een eigen klachtenregeling opgesteld en kan die toesturen.
-  Sesa-Security is niet aangesloten bij een onafhankelijke klachtencommissie.
+- Sara heeft haar eigen klachtenregeling met zes onderdelen op 7 oktober 2026
+  per WhatsApp gedeeld. Die tekst staat op de website. Sesa-Security is niet
+  aangesloten bij een onafhankelijke klachtencommissie.
 
 ## Nog nodig
 
-1. Ontvang Sara's eigen klachtenregeling en vergelijk deze met de website.
-2. Ontvang eventueel het Wpbr-vergunningnummer als het openbaar mag worden
+1. Vraag Sara of er ook een formeel vastgestelde of bij Justis ingediende versie
+   van de klachtenregeling bestaat. Vergelijk die zo nodig met de webtekst.
+2. Sara heeft aanvullende artikelen over de indieningstermijn en de inhoud van
+   een klacht gestuurd; deze staan nu op de website. De zes weken voor het
+   indienen zijn een voorgestelde richttermijn van Sesa-Security, geen
+   bevestigde wettelijke maximumtermijn. Controleer nog of "bij voorkeur
+   binnen zes weken" en "streeft ernaar binnen zes weken" voldoende duidelijk
+   zijn als respectievelijk indienings- en afhandelingstermijn en of de
+   regeling verder voldoet aan de Wpbr en de Rpbr.
+   Een kopie van een ingediende klacht moet ter kennis van de minister worden
+   gebracht; indiening en behandeling zijn kosteloos.
+3. Ontvang eventueel het Wpbr-vergunningnummer als het openbaar mag worden
    vermeld. Controleer later de status van de beveiligingslegitimatie.
-3. Ontvang een foto van Sara in uniform om het tijdelijke logo te vervangen.
-4. Vraag toestemming van de betreffende klant voordat een concrete referentie
+4. Ontvang een foto van Sara in uniform om het tijdelijke logo te vervangen.
+5. Vraag toestemming van de betreffende klant voordat een concrete referentie
    wordt toegevoegd.
 
 ## Zelf uitzoeken voor de website

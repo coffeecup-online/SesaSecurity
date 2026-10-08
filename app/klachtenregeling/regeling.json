@@ -1,57 +1,65 @@
 [
   {
     "number": 1,
-    "title": "Artikel 1. Definities en reikwijdte",
-    "body": "Deze regeling verstaat onder: 1. de organisatie: Sesa-Security; 2. de klager: degene wiens belang rechtstreeks betrokken is bij de gedraging van de organisatie; 3. een gedraging : het handelen of nalaten van de organisatie of haar medewerkers; 4. de beklaagde: de organisatie tegen wiens gedraging door een klager een klaagschrift is ingediend; 5. een klaagschrift: een schriftelijke klacht tegen een gedraging van de beklaagde;"
+    "title": "Indienen van een klacht",
+    "body": "Een klant of andere betrokkene die niet tevreden is over de dienstverlening of het handelen van een medewerker van Sesa-Security kan schriftelijk een klacht indienen bij Sesa-Security.",
+    "requirements": [],
+    "closing": ""
   },
   {
     "number": 2,
-    "title": "Artikel 2. Toepassingsgebied",
-    "body": "Dit reglement is van toepassing op de behandeling van klachten over gedragingen van Sesa-Security en haar medewerkers."
+    "title": "Termijn voor het indienen van een klacht",
+    "body": "Een klacht dient bij voorkeur binnen zes weken na de gebeurtenis waarop de klacht betrekking heeft schriftelijk te worden ingediend bij Sesa-Security. Dit is een door Sesa-Security voorgestelde richttermijn, geen wettelijke maximumtermijn. Klachten die na deze termijn worden ingediend, worden waar mogelijk alsnog in behandeling genomen, mits de feiten voldoende kunnen worden onderzocht.",
+    "requirements": [],
+    "closing": ""
   },
   {
     "number": 3,
-    "title": "Artikel 3. Wijze van indienen",
-    "body": "1. Een klager of zijn gemachtigde kan een klacht indienen bij de directeur van de organisatie die de gedraging verricht heeft. 2. Een klaagschrift wordt ondertekend en bevat minstens de volgende gegevens: -  de naam en adres van de klager; - de datum; -  een omschrijving van de gedraging waartegen bezwaar gemaakt wordt; -  de gronden waarop de klager bezwaar maakt 3. Indien het klaagschrift niet voldoet aan de in het tweede lid van dit artikel genoemde vereisten stelt de directeur van de organisatie klager hiervan op de hoogte en nodigt klager uit het verzuim binnen twee weken te herstellen. 4. Indien klager het verzuim, zoals bedoeld in het derde lid van dit artikel, niet herstelt wordt de klacht niet in behandeling genomen."
+    "title": "Vereisten voor het indienen van een klacht",
+    "body": "Een klacht dient de volgende gegevens te bevatten:",
+    "requirements": [
+      "Naam en contactgegevens van de klager.",
+      "Datum waarop de klacht wordt ingediend.",
+      "Datum, tijdstip en locatie van de gebeurtenis, voor zover bekend.",
+      "Een duidelijke omschrijving van de klacht.",
+      "Naam van de betrokken beveiliger of medewerker, indien bekend.",
+      "Eventuele bewijsstukken of andere relevante informatie."
+    ],
+    "closing": "Indien gegevens ontbreken, kan Sesa-Security de klager verzoeken aanvullende informatie te verstrekken."
   },
   {
     "number": 4,
-    "title": "Artikel 4. Indieningstermijn",
-    "body": "De termijn voor het indienen van een klaagschrift bedraagt zes weken, te rekenen vanaf de datum waarop de gedraging waarover geklaagd wordt heeft plaatsgevonden."
+    "title": "Behandeling van de klacht",
+    "body": "Na ontvangst wordt de klacht geregistreerd en zorgvuldig onderzocht. De klager ontvangt een bevestiging van ontvangst. Sesa-Security streeft ernaar de klacht binnen zes weken af te handelen.",
+    "requirements": [],
+    "closing": ""
   },
   {
     "number": 5,
-    "title": "Artikel 5. Kostenloze behandeling",
-    "body": "Aan de behandeling van een klaagschrift zijn geen kosten verbonden."
+    "title": "Hoor en wederhoor",
+    "body": "Zowel de klager als de betrokken medewerker krijgt de mogelijkheid om zijn of haar kant van het verhaal toe te lichten.",
+    "requirements": [],
+    "closing": ""
   },
   {
     "number": 6,
-    "title": "Artikel 6. Ontvangstbevestiging",
-    "body": "De directeur zendt binnen twee weken na ontvangst van het klaagschrift een bericht van ontvangst."
+    "title": "Beslissing",
+    "body": "Na onderzoek ontvangt de klager schriftelijk de uitkomst van de klacht en, indien van toepassing, welke maatregelen Sesa-Security naar aanleiding daarvan neemt.",
+    "requirements": [],
+    "closing": ""
   },
   {
     "number": 7,
-    "title": "Artikel 7",
-    "body": "De directeur zendt binnen twee weken na ontvangst van de klacht een kopie van het klaagschrift aan de Dienst Justis van het Ministerie van Veiligheid en Justitie."
+    "title": "Registratie en vertrouwelijkheid",
+    "body": "Klachten worden vertrouwelijk behandeld. De persoonsgegevens en informatie uit de klacht worden uitsluitend gebruikt voor de behandeling en registratie van de klacht en worden volgens de toepasselijke privacyregels bewaard.",
+    "requirements": [],
+    "closing": ""
   },
   {
     "number": 8,
-    "title": "Artikel 8. Mondelinge behandelingsprocedure",
-    "body": "1. De directeur van de organisatie onderzoekt de klacht en nodigt de klager uit voor een persoonlijk onderhoud. 2. De directeur hoort de klager en kan tevens inlichtingen bij derden inwinnen."
-  },
-  {
-    "number": 9,
-    "title": "Artikel 9. Schriftelijke behandelingsprocedure",
-    "body": "1. Indien de klager niet gehoord wenst te worden volgt een schriftelijke behandeling van de klacht. 2. Indien het klaagschrift niet voldoet aan de eisen gesteld in artikel 3 wordt het klaagschrift niet in behandeling genomen."
-  },
-  {
-    "number": 10,
-    "title": "Artikel 10. Beslissing",
-    "body": "De directeur beslist binnen zes weken na ontvangst van het klaagschrift op de klacht."
-  },
-  {
-    "number": 11,
-    "title": "Artikel 11. Schriftelijke mededeling",
-    "body": "De beslissing op de klacht wordt schriftelijk aan de klager meegedeeld."
+    "title": "Onafhankelijke klachtencommissie",
+    "body": "Sesa-Security is op dit moment niet aangesloten bij een onafhankelijke klachtencommissie. Indien een geschil niet onderling kan worden opgelost, wordt bekeken welke externe of wettelijke procedure van toepassing is.",
+    "requirements": [],
+    "closing": ""
   }
 ]
